@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="output-text" readonly>
+    <button onclick="addNumber(innerText)">7</button>
+    <button onclick="addNumber(innerText)">8</button>
+    <button onclick="addNumber(innerText)">9</button>
+    <button onclick="addOperation(innerText)">/</button>
+    <button onclick="addNumber(innerText)">4</button>
+    <button onclick="addNumber(innerText)">5</button>
+    <button onclick="addNumber(innerText)">6</button>
+    <button onclick="addOperation(innerText)">*</button>
+    <button onclick="addNumber(innerText)">1</button>
+    <button onclick="addNumber(innerText)">2</button>
+    <button onclick="addNumber(innerText)">3</button>
+    <button onclick="addOperation(innerText)">-</button>
+    <button onclick="addNumber(innerText)" class="span-three">0</button>
+    <button onclick="addOperation(innerText)">+</button>
+    <button onclick="clearAll()" class="span-two">C</button>
+    <button onclick="calculate()" class="span-two">=</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
